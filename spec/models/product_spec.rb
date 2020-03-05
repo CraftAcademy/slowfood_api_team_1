@@ -9,7 +9,7 @@ RSpec.describe Product, type: :model do
   describe 'Validations' do
     it {is_expected.to validate_presence_of :name}
     it {is_expected.to validate_presence_of :price}
-  end
+	end
 
   describe 'Factory' do
     it 'should have valid Factory' do
